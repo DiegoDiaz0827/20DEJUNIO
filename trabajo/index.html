@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+ <div class="container">
+   <div class="formulario">
+    <h2>REGISTRO EXAMEN ICFES 2025</h2>
+    <h3><i>por favor completa los siguientes campos para hacer tu registro efectivo</i></h3>
+
+    <div class="form-grid">
+      <input type="text" id="nombre" placeholder="Nombre">
+      <input type="text" id="apellidos" placeholder="Apellidos">
+      <input type="email" id="email" placeholder="correo electrónico institucional">
+      <input type="text" id="numero" placeholder="Número de teléfono">
+      <input type="text" id="Codigo" placeholder="Código de Verificación">
+      
+      <select id="documento">
+        <option value="" disabled selected>-- tipo de documento --</option>
+        <option>Tarjeta de identidad</option>
+        <option>Cédula de ciudadanía</option>
+        <option>Cédula de extranjería</option>
+      </select>
+
+      <input type="text" id="numero2" placeholder="Número de identificación">
+
+      <select id="Grado">
+        <option value="" disabled selected>-- Selecciona un grado --</option>
+        <option>11°</option>
+        <option>10°</option>
+      </select>
+
+      <input type="text" id="sangre" placeholder="tipo de sangre">
+      
+
+       
+      
+     
+      <input type="date" id="Fecha" placeholder="Fecha de nacimiento">
+      
+      <select id="departments">
+        <option value="">-- Cargando departamentos... --</option>
+      </select>
+
+      <select id="cities">
+        <option value="">-- Cargando ciudades... --</option>
+      </select>
+
+    </div>
+
+    <div class="acciones">
+      <button id="btnLogin">Registrarse</button>
+      <div id="estado">🧐 Esperando respuestas</div>
+    </div>
+
+    <div id="resultado"></div>
+  </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

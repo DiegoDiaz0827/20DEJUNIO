@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "c" ;
+    src: url(fonts/Freshman.ttf);
+}
+
+
+body{
+    font-family: 'c';
+    background-image: url("https://sdmntprcentralus.oaiusercontent.com/files/00000000-eb14-61f5-ae66-1fa3e54e23e4/raw?se=2025-06-20T20%3A27%3A40Z&sp=r&sv=2024-08-04&sr=b&scid=e8d22256-994b-5afc-b937-a59fbf3c61d3&skoid=02b7f7b5-29f8-416a-aeb6-99464748559d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-20T18%3A39%3A20Z&ske=2025-06-21T18%3A39%3A20Z&sks=b&skv=2024-08-04&sig=l%2BJhZKaDdFW7wcEVo1XNsMxQ2EheVyEtznlBVraQ4KE%3D");
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.formulario {
+  background-color: transparent;
+  padding: 30px 40px;
+  padding-bottom: 0;
+  border-radius: 10px;
+  width: 700px;
+  
+}
+
+
+.form-grid {
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    color: white;
+   
+    margin-top: 20px;
+  }
+
+
+
+
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px blue;
+}
+
+h2{
+    margin-bottom: 5px;
+    color: rgb(12, 49, 255);
+}
+
+.form-grid input,
+.form-grid select {
+     width: 100%;
+  
+  height: 38px; 
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #003cff;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: rgb(255, 255, 255);
+  transition: transform 0.3s ease;
+}
+
+
+
+.acciones {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+button{
+    width: 50%;
+    padding: 0.6rem;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px blue;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 1rem;
+    box-shadow: 0 0 10px blue;
+    border: 2px solid black;
+    
+    box-sizing: border-box;
+}
+
+button:hover{
+    background-color: rgb(2, 77, 189);
+    color: white;
+}
+
+#estado{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    font-size: 1.8rem;
+    color: white;
+}
+
+#resultado{
+    margin-top: 1rem;
+    padding: 0.8rem;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.error{
+    color: red;
+    background-color: transparent;
+    text-shadow: 0 0 10px red;
+}
+
+.success{
+    color: green;
+    text-shadow: 0 0 10px green;
+}
+
